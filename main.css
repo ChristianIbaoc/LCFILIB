@@ -94,7 +94,7 @@ a:hover
     position: absolute;
     top: 50px;
     font-family: 'Inter';
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     text-align: center;
 }
@@ -108,7 +108,7 @@ a:hover
     background-image: url('De_La_Salle_University_Seal.svg.png');
     background-repeat: no-repeat;
     background-position: 90% 50%;
-    background-size: 500px 500px;
+    background-size: 400px 400px;
     opacity: 0%;
     transition: 2s;
 }
@@ -124,7 +124,7 @@ a:hover
     top: 20%;
     left: 40px;
     font-family: 'Inter';
-    font-size: 40px;
+    font-size: 25px;
     color:black;
     text-align: justify;
 }

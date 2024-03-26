@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.inter-bananas {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+  }
+body
+{
+    width: 100%;
+    height: 1620px;
+    opacity: 0px;
+    margin: 0;
+    position: relative;
+}
+
+a
+{
+    font-family: 'Italianno';
+    font-size:80px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover
+{
+    transition-duration: 1s;
+    text-decoration: underline;
+}
+
+#home
+{
+    margin: 10px;
+}
+
+#divribbon
+{
+    width: 100%;
+    height: 145px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #087830;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#image
+{
+    height: 145px;
+    position: absolute;
+    left: 10px;
+}
+
+#footerDiv
+{
+    position: absolute;
+    bottom: 0px;
+    background-color: #087830;
+    width: 100%;
+    height: 145px;
+
+}
+
+#middle
+{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    background-image: url('DLSU Academic Services (Edited).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 80%;
+}
+
+#middle p
+{
+    position: absolute;
+    top: 50px;
+    font-family: 'Inter';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#bglogo
+{
+    position: absolute;
+    top: 145px;
+    width: 100%;
+    height: 665px;
+    background-image: url('De_La_Salle_University_Seal.svg.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    background-size: 500px 500px;
+    opacity: 0%;
+    transition: 2s;
+}
+#bglogo:hover
+{
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+#bglogo p
+{
+    position: absolute;
+    top: 20%;
+    left: 40px;
+    font-family: 'Inter';
+    font-size: 40px;
+    color:black;
+    text-align: justify;
+}

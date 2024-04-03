@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+@keyframes fade {
+    from
+    {
+        opacity: 0%;
+    }
+    to
+    {
+        opacity: 100%;
+    }
+}
+.inter-bananas {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+  }
+
+
+
+body
+{
+    width: 100%;
+    height: 1620px;
+    opacity: 0px;
+    margin: 0;
+    position: relative;
+}
+
+a
+{
+    font-family: 'Italianno';
+    font-size:80px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover
+{
+    transition-duration: 1s;
+    text-decoration: underline;
+}
+
+#home
+{
+    margin: 10px;
+}
+
+#divribbon
+{
+    width: 100%;
+    height: 145px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #087830;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#image
+{
+    height: 145px;
+    position: absolute;
+    left: 10px;
+}
+
+#footerDiv
+{
+    position: absolute;
+    bottom: 0px;
+    background-color: #087830;
+    width: 100%;
+    height: 145px;
+
+}
+
+.content_1
+{
+    display: flex;
+    background-color: #f0f0f0;
+    font-family: 'Inter';
+    height: 19.5%;
+    width: 98.95%;
+    font-size: 15px;
+    color:black;
+    text-align: left;
+    align-items: center;
+    padding: 10px;
+}
+
+.content_2
+{
+    display: flex;
+    background-color: #dbdcdc;
+    font-family: 'Inter';
+    height: 19.5%;
+    width: 97.5%;
+    font-size: 15px;
+    color:black;
+    text-align: left;
+    align-items: center;
+    padding: 10px;
+    padding-left: 8%;
+}
+
+#img1{
+    padding-left: 15%;
+    padding-right: 30%;
+}
+
+#r_1{
+    padding-top: 35px;
+    padding-right: 50%;
+    height: 325px;
+    width: 200px;
+}
+
+#img2{
+    padding-right: 15%;
+    padding-left: 24%;
+}
+
+#r_2{
+    padding-top: 35px;
+    padding-left: 50%;
+    height: 325px;
+    width: 200px;
+}
+
+#img3{
+    padding-left: 15%;
+    padding-right: 30%;
+}
+
+#r_3{
+    padding-top: 3px;
+    padding-right: 50%;
+    height: 325px;
+    width: 200px;
+}
+
+#img4{
+    padding-right: 15%;
+    padding-left: 24%;
+}
+
+#r_4{
+    padding-top: 3px;
+    padding-left: 50%;
+    height: 300px;
+    width: 200px;;
+}
+
+
+

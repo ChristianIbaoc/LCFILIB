@@ -119,8 +119,7 @@ a:hover
     padding-left: 15%;
     padding-right: 30%;
 }
-
-#r_1{
+#rs_1{
     padding-top: 35px;
     padding-right: 50%;
     height: 325px;
@@ -132,7 +131,7 @@ a:hover
     padding-left: 24%;
 }
 
-#r_2{
+#rs_2{
     padding-top: 35px;
     padding-left: 50%;
     height: 325px;
@@ -144,8 +143,8 @@ a:hover
     padding-right: 30%;
 }
 
-#r_3{
-    padding-top: 3px;
+#rs_3{
+    padding-top: 35px;
     padding-right: 50%;
     height: 325px;
     width: 200px;
@@ -156,12 +155,29 @@ a:hover
     padding-left: 24%;
 }
 
-#r_4{
+#rs_4{
     padding-top: 3px;
     padding-left: 50%;
     height: 300px;
     width: 200px;;
 }
 
+.links{
+    font-style: italic;
+    font-family: 'Inter';
+    color:black;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
 
+.scalable {
+    transition: font-size 0.5s; /* Add a transition for smoother scaling */
+}
 
+/* Add media query for when the user zooms in the browser */
+@media screen and (min-width: 800px) {
+    .scalable {
+        font-size: 120%; /* Adjust the font size as needed */
+    }
+}
